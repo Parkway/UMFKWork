@@ -3,6 +3,9 @@
  */
 public class FirstProgram3 {
     public static void main(String []args) {
-        System.out.println("Hello out there.");
+        System.out.println("Hello out there." +
+                "I will add three numbers for you." +
+                "Enter three numbers on a line:");
+
     }
 }
