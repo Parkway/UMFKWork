@@ -22,10 +22,6 @@ public class FirstProgram3 {
         catch(InputMismatchException exception)
         {
             System.out.println("This is not an integer, please try again.");
-
         }
-
-
-
     }
 }
