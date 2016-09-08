@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -516,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473344839243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Oops broke FP3">
+      <created>1473345368662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1473345368662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -566,7 +573,8 @@
     <MESSAGE value="Unnecessary whitespace removed in FP3, VC untouched." />
     <MESSAGE value="Added comments to describe code in FP3, formalized variable names." />
     <MESSAGE value="Commenting and describing code in VC." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commenting and describing code in VC." />
+    <MESSAGE value="Oops broke FP3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oops broke FP3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,7 +3,7 @@ import java.util.Scanner; // Adds Scanner for basic IO
 /* File name: FirstProgram3.java
     This program takes three integers from the user and adds them together, and returns the sum as output.
     For example, if I enter 5, 10, and 5, the program returns 20.
-    Lance Douglas, FirstProgram3, September 7, 2016
+    Lance Douglas, FirstProgram3, September 7, 2016.
 */
 
 public class FirstProgram3 { //Identifies class name
