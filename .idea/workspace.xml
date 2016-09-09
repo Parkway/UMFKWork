@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Snowman.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VendingChange.java" afterPath="$PROJECT_DIR$/src/VendingChange.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -554,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473345402511</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started on Snowman.java. This is rough. &#10;&#10;Tried to use modulus on VC. Also rough.">
+      <created>1473436175644</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1473436175644</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -606,7 +611,8 @@
     <MESSAGE value="Commenting and describing code in VC." />
     <MESSAGE value="Oops broke FP3" />
     <MESSAGE value="Oh thank god I fixed it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Oh thank god I fixed it." />
+    <MESSAGE value="Started on Snowman.java. This is rough. &#10;&#10;Tried to use modulus on VC. Also rough." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on Snowman.java. This is rough. &#10;&#10;Tried to use modulus on VC. Also rough." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
