@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Snowman.java" afterPath="$PROJECT_DIR$/src/Snowman.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VendingChange.java" afterPath="$PROJECT_DIR$/src/VendingChange.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VendingChange.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VendingChange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VendingChange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -48,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Snowman.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Snowman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Snowman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -587,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473445026277</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished up my ghetto snowman. Trial and error is ridiculous. Is there a better way?">
+      <created>1473445880064</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1473445880064</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -641,7 +647,8 @@
     <MESSAGE value="Oh thank god I fixed it." />
     <MESSAGE value="Started on Snowman.java. This is rough. &#10;&#10;Tried to use modulus on VC. Also rough." />
     <MESSAGE value="Finished up VendingChange.java! I couldn't think of a better way to fix the plural/singular issue, so only one single at a time will be recognized." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished up VendingChange.java! I couldn't think of a better way to fix the plural/singular issue, so only one single at a time will be recognized." />
+    <MESSAGE value="Finished up my ghetto snowman. Trial and error is ridiculous. Is there a better way?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished up my ghetto snowman. Trial and error is ridiculous. Is there a better way?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VendingChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Snowman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -713,6 +712,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VendingChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
