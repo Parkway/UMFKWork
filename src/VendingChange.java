@@ -13,8 +13,8 @@ public class VendingChange { // Class name
         int change = 100 - price; //Dollar - price to get change.
 
         int quarters = change / 25; // For the record,
-        int dimes = change / 10; // I know none of this works,
-        int nickels = change / 5; // it's just a placeholder.
+        int dimes = (quarters % 25 ) / 10; // I know none of this works,
+        int nickels = (dimes % 10)/ 5; // it's just a placeholder.
 
 
 
