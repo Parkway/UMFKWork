@@ -7,21 +7,44 @@ import java.util.Scanner; // Basic user IO
 public class VendingChange { // Class name
     public static void main (String[] args) { // Method name
 
-        Scanner scn = new Scanner(System.in); // For user input
-        System.out.println("Enter price of item, \nFrom 25 cents to $1, in five cent increments.");
-        int price = scn.nextInt();
-        int change = 100 - price; //Dollar - price to get change.
+        int amount;
+        int price;
+        int quarters;
+        int dimes;
+        int nickels;
 
-        int quarters = change / 25; // For the record,
-        int dimes = (quarters % 25 ) / 10; // I know none of this works,
-        int nickels = (dimes % 10)/ 5; // it's just a placeholder.
+        System.out.println("Enter price of an item, \nfrom 25 cents to $1, in 5 cent increments.");
 
+        Scanner scn = new Scanner(System.in);
+        price = scn.nextInt();
+        amount = 100 - price;
+        quarters = amount / 25;
+        amount = amount % 25;
+        dimes = amount / 10;
+        amount = amount % 10;
+        nickels = amount / 5;
 
+        if (quarters == 1) {
+            System.out.println("You bought an item for " + price + " cents, and gave me a dollar.\nYour change is\n"
+                    + quarters + " quarter,\n"
+                    + dimes + " dimes, and\n"
+                    + nickels + " nickels.");
+        } else if (dimes == 1) {
+            System.out.println("You bought an item for " + price + " cents, and gave me a dollar.\nYour change is\n"
+                    + quarters + " quarters,\n"
+                    + dimes + " dime, and\n"
+                    + nickels + " nickels.");
+        } else if (nickels == 1) {
+            System.out.println("You bought an item for " + price + " cents, and gave me a dollar.\nYour change is\n"
+                    + quarters + " quarters,\n"
+                    + dimes + " dimes, and\n"
+                    + nickels + " nickel.");
+        } else {
+            System.out.println("You bought an item for " + price + " cents, and gave me a dollar.\nYour change is\n"
+                    + quarters + " quarters,\n"
+                    + dimes + " dimes, and\n"
+                    + nickels + " nickels.");
+        }
 
-        System.out.println("You bought an item for " + price + " cents and gave me a dollar.\n" +
-                "Your change is:\n" +
-                quarters + " quarters, " + // Returns Quarters
-                dimes + " dimes, and " + // Returns Dimes
-                nickels + " nickels."); // Returns Nickels
     }
 }
