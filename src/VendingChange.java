@@ -48,4 +48,4 @@ public class VendingChange { // Class name
         }
 
     }
-}
+} //End code.

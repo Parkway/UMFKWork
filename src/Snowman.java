@@ -17,4 +17,4 @@ public class Snowman  extends Applet {
         g.drawOval(25, 510, 300, 300); //There has *seriously* got to be a better way of doing this than trial and error.
 
     }
-}    // End class SnowMan
+}    // End class Snowman

@@ -23,4 +23,4 @@ public class FirstProgram3 { //Identifies class name
             System.out.println("This is not an integer, please try again.");
         } // try / catch is to catch any errors if the user enters something that isn't an integer.
     }
-}
+} //End code.
