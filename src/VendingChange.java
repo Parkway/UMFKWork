@@ -2,7 +2,7 @@ import java.util.Scanner; // Basic user IO
 /* This program will return exact change in the minimum amount of coin necessary. The user enters the price of an item
    they purchased, and the program subtracts the price from a dollar, to get the change, and then it turns the change
    into exact coin.
-   Lance Douglas, VendingChange, 9/8/2016
+   Lance Douglas, VendingChange, September 8, 2016
    */
 
 public class VendingChange { // Class name

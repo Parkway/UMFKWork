@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.applet.Applet;
 /* This program makes a snowman!
-   Lance Douglas, Snowman, 9/9/2016
+   Lance Douglas, Snowman, September 9, 2016
  */
 
 public class Snowman  extends Applet {
