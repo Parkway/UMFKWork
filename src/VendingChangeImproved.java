@@ -1,8 +1,8 @@
 import java.util.Scanner; // Basic user IO
 /* This program will return exact change in the minimum amount of coin necessary. The user enters the price of an item
    they purchased, and the program subtracts the price from a dollar, to get the change, and then it turns the change
-   into exact coin.
-   Lance Douglas, VendingChange, September 8, 2016
+   into exact coin. Now, it magically accounts for integers that don't fall into the range of 25-100 cents, or aren't multiples of five.
+   Lance Douglas, VendingChange, September 12, 2016
    */
 
 public class VendingChangeImproved { // Class name
@@ -18,12 +18,12 @@ public class VendingChangeImproved { // Class name
 
         Scanner scn = new Scanner(System.in);
         price = scn.nextInt();
-        if (price > 100) {
-            System.out.println("Invalid: This number is more than $1.");
-        } else if (price < 25) {
-            System.out.println("Invalid: This number is less than 25 cents.");
-        } else if (price % 5 != 0) {
-            System.out.println("Invalid: This number is not a multiple of 5.");
+        if (price > 100) { //If price is more than 100, it won't work.
+            System.out.println("Invalid cost: This number is more than $1.");
+        } else if (price < 25) { //If the price is less than 25, it won't work.
+            System.out.println("Invalid cost: This number is less than 25 cents.");
+        } else if (price % 5 != 0) { //If the remainder of a price is not 0, than it was not a multiple of 5.
+            System.out.println("Invalid cost: This number is not a multiple of 5.");
         } else {
             amount = 100 - price;
             quarters = amount / 25;
