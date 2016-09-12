@@ -45,7 +45,7 @@ public class VendingChange { // Class name
                     + quarters + " quarters,\n"
                     + dimes + " dimes, and\n"
                     + nickels + " nickels.");
-        }
+        } // else if (case1 || case2) didn't seem to work for me, so one coin each.
 
     }
 } //End code.

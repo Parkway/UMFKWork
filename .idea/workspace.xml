@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Snowman.java" afterPath="$PROJECT_DIR$/src/Snowman.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VendingChange.java" afterPath="$PROJECT_DIR$/src/VendingChange.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,27 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VendingChange.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VendingChange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VendingChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="659">
+              <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VendingChangeImproved.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VendingChangeImproved.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Snowman.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Snowman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Snowman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -96,10 +86,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/cunt.java" />
         <option value="$PROJECT_DIR$/src/Coins.java" />
-        <option value="$PROJECT_DIR$/src/VendingChange.java" />
         <option value="$PROJECT_DIR$/src/FirstProgram3.java" />
         <option value="$PROJECT_DIR$/src/VendingChangeImproved.java" />
         <option value="$PROJECT_DIR$/src/Snowman.java" />
+        <option value="$PROJECT_DIR$/src/VendingChange.java" />
       </list>
     </option>
   </component>
@@ -685,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473706511063</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Snowman is complete.">
+      <created>1473706555404</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1473706555404</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -748,7 +745,8 @@
     <MESSAGE value="VendingChangeImproved.java is complete, now with comments, updated magic, and more!" />
     <MESSAGE value="FirstProgram3 is complete." />
     <MESSAGE value="VCI is completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="VCI is completed." />
+    <MESSAGE value="Snowman is complete." />
+    <option name="LAST_COMMIT_MESSAGE" value="Snowman is complete." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -875,6 +873,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Snowman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="133" selection-start-line="16" selection-start-column="133" selection-end-line="16" selection-end-column="133" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/VendingChangeImproved.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -885,19 +893,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VendingChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="659">
+          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Snowman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="133" selection-start-line="16" selection-start-column="133" selection-end-line="16" selection-end-column="133" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
