@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="VendingChangeImproved.java is complete.">
+    <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VendingChangeImproved.java" afterPath="$PROJECT_DIR$/src/VendingChangeImproved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FirstProgram3.java" afterPath="$PROJECT_DIR$/src/FirstProgram3.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstProgram3.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FirstProgram3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VendingChangeImproved.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VendingChangeImproved.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VendingChangeImproved.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -98,8 +98,8 @@
         <option value="$PROJECT_DIR$/src/Coins.java" />
         <option value="$PROJECT_DIR$/src/VendingChange.java" />
         <option value="$PROJECT_DIR$/src/Snowman.java" />
-        <option value="$PROJECT_DIR$/src/FirstProgram3.java" />
         <option value="$PROJECT_DIR$/src/VendingChangeImproved.java" />
+        <option value="$PROJECT_DIR$/src/FirstProgram3.java" />
       </list>
     </option>
   </component>
@@ -664,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473705989038</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="VendingChangeImproved.java is complete, now with comments, updated magic, and more!">
+      <created>1473706280233</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1473706280233</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,7 +732,8 @@
     <MESSAGE value="Fixed probably." />
     <MESSAGE value="Back online here we go boi!" />
     <MESSAGE value="VendingChangeImproved.java is complete." />
-    <option name="LAST_COMMIT_MESSAGE" value="VendingChangeImproved.java is complete." />
+    <MESSAGE value="VendingChangeImproved.java is complete, now with comments, updated magic, and more!" />
+    <option name="LAST_COMMIT_MESSAGE" value="VendingChangeImproved.java is complete, now with comments, updated magic, and more!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,21 +868,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/VendingChangeImproved.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
