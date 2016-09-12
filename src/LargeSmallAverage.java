@@ -7,11 +7,12 @@ Lance Douglas, LargeSmallAverage, September 12, 2016.
 */
 public class LargeSmallAverage {
     public static void main(String[] args) {
-        int total = 0; //All user input added up.
-        int largest = Integer.MIN_VALUE; // Guarantees user input must be above lowest integer when recorded.
-        int smallest = Integer.MAX_VALUE; // Guarantees user input must be lower than the highest integer when recorded.
-        int count = 0; //How many numbers the user added.
+        double total = 0; //All user input added up.
+        double largest = Integer.MIN_VALUE; // Guarantees user input must be above lowest integer when recorded.
+        double smallest = Integer.MAX_VALUE; // Guarantees user input must be lower than the highest integer when recorded.
+        double count = 0; //How many numbers the user added.
         double average; //Will be used to store total / count.
+        double sum = 0; //Nums added up.
         Scanner scn = new Scanner(System.in);
         System.out.println("This program allows you to enter a list of positive integers,\n" +
                 "terminated by a -1, then displays the largest value,\n" +
@@ -22,7 +23,7 @@ public class LargeSmallAverage {
             int num = scn.nextInt();
             if (num == -1) break; //Break function closes while loop.
             count++; //++ adds continually to count. Records how many inputs.
-            total = total + num; //Takes total of 0 and adds all nums to it.
+            total = sum += num; //Adds all nums entered to sum, which is then assigned to total.
             if (num > largest) largest = num; // If the number is bigger than the minimum, it becomes the largest.
             if (num < smallest) smallest = num; // If the number is smaller than the maximum, it becomes the smallest.
         }
