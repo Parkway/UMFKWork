@@ -36,7 +36,17 @@ public class VendingChangeImproved { // Class name
                     + quarters + " quarters,\n"
                     + dimes + " dimes, and\n"
                     + nickels + " nickels.");
-        }
+        }/*Now, I also could have done a switch statement:
+                int(price) {
+                    case 1: *code*
+                        break;
+                    case 2: *code*
+                        break;
+                    case n: *code*
+                        break;
+                    default: *code*
+                }
+        */
 
     }
 } //End code.
