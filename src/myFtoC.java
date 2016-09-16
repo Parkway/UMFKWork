@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /*This program converts Fahrenheit to Celsius. Nothing exciting.
   Lance Douglas, FtoC, September 16, 2016. */
-public class FtoC {
+public class myFtoC {
    public static void main(String[] args) {
       System.out.println("Enter a temperature (whole number) in degrees Fahrenheit.");
       Scanner scn = new Scanner(System.in);
