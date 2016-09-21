@@ -4,23 +4,6 @@ public class myFtoC {
     public static void main(String[] args) {
         intro();
     }
-    private static void print(String s) {
-        System.out.println(s);
-    }
-    private static void FtoC() {
-        print("Please enter temperature that you wish to convert.");
-        Scanner FC = new Scanner(System.in);
-        double FtoC = FC.nextDouble();
-        double Ctemp = (FtoC - 32) * 5/9;
-        print("In Celsius, " + FtoC + "°F is " + Ctemp + "°.");
-    }
-    private static void CtoF() {
-        print("Please enter temperature that you wish to convert");
-        Scanner CF = new Scanner(System.in);
-        double CtoF = CF.nextDouble();
-        double Ftemp = (CtoF * 9/5) + 32;
-        print("In Fahrenheit, " + CtoF + "°C is " + Ftemp + "°.");
-    }
     private static void intro() {
         print("Would you like to convert from\n"
                 + "Fahrenheit to Celsius, or\n"
@@ -38,6 +21,24 @@ public class myFtoC {
             intro();
         }
     }
+    private static void print(String s) {
+        System.out.println(s);
+    }
+    private static void FtoC() {
+        print("Please enter temperature that you wish to convert.");
+        Scanner FC = new Scanner(System.in);
+        double FtoC = FC.nextDouble();
+        double Ctemp = (FtoC - 32) * 5/9;
+        print("In Celsius, " + FtoC + "°F is " + Ctemp + "°.");
+    }
+    private static void CtoF() {
+        print("Please enter temperature that you wish to convert");
+        Scanner CF = new Scanner(System.in);
+        double CtoF = CF.nextDouble();
+        double Ftemp = (CtoF * 9/5) + 32;
+        print("In Fahrenheit, " + CtoF + "°C is " + Ftemp + "°.");
+    }
+
 }
 
 
