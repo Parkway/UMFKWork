@@ -17,7 +17,7 @@ class Counter {
     void printCounter() {
         System.out.println(zero);
     }
-    public int countIs() {
+    int countIs() {
         return zero;
     }
 }
