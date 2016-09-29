@@ -1,7 +1,5 @@
 class Counter {
-    public int zero;
-    public String printCount;
-
+    private int zero;
     void setZero() {
         zero = 0;
     }
@@ -11,7 +9,11 @@ class Counter {
     }
 
     void decrement() {
-        zero--;
+        if (zero > 0) {
+            zero--;
+        } else {
+            setZero();
+        }
     }
 
     void printCounter() {

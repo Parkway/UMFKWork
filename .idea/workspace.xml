@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CounterTest.java" />
+    <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="Counter method adjusted.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Counter.java" afterPath="$PROJECT_DIR$/src/Counter.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,28 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#57#58#0" expanded="true" />
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CounterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CounterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
@@ -99,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/PersonImprovedTest.java" />
         <option value="$PROJECT_DIR$/src/writeOutput.java" />
         <option value="$PROJECT_DIR$/src/CounterTest.java" />
-        <option value="$PROJECT_DIR$/src/Counter.java" />
         <option value="$PROJECT_DIR$/src/PersonImproved.java" />
+        <option value="$PROJECT_DIR$/src/Counter.java" />
       </list>
     </option>
   </component>
@@ -782,12 +779,26 @@
       <option name="project" value="LOCAL" />
       <updated>1474487100425</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="CounterTest/Counter complete.">
+      <created>1475192187290</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1475192187290</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Counter method adjusted.&#10;">
+      <created>1475192296932</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1475192296932</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="993" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -796,7 +807,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7888631" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,8 +837,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished up VendingChange.java! I couldn't think of a better way to fix the plural/singular issue, so only one single at a time will be recognized." />
-    <MESSAGE value="Finished up my ghetto snowman. Trial and error is ridiculous. Is there a better way?" />
     <MESSAGE value="VendingChange is done, finally. Whew." />
     <MESSAGE value="Removed UMFKWork empty file." />
     <MESSAGE value="Fixed!" />
@@ -851,7 +860,9 @@
     <MESSAGE value="Fixed myBirthdayWizard." />
     <MESSAGE value="myFtoC just got a lot better. Trust me." />
     <MESSAGE value="Fixed up myFtoC, removed randomNumberGen (non assignment)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed up myFtoC, removed randomNumberGen (non assignment)" />
+    <MESSAGE value="CounterTest/Counter complete." />
+    <MESSAGE value="Counter method adjusted.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counter method adjusted.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1145,25 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PersonImprovedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1185,6 +1177,23 @@
         <state relative-caret-position="353">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <element signature="e#57#58#0" expanded="true" />
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
