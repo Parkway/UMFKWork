@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/* This program sorts three integers from smallest to largest. I may have overcomplicated it though,
+    I'm not sure how else I would do it in this simple of code.
+    Lance Douglas, SortInteger, September 30th, 2016
+ */
 public class SortInteger {
     public static void main(String[] args) {
         System.out.println("Enter three whole numbers:");

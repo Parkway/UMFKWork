@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BasicExamStatistics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SortInteger.java" afterPath="$PROJECT_DIR$/src/SortInteger.java" />
     </list>
@@ -64,11 +65,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstProgram3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="99" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicExamStatistics.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BasicExamStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -79,8 +100,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Singleton" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -120,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/PersonImproved.java" />
         <option value="$PROJECT_DIR$/src/PersonImprovedTest.java" />
         <option value="$PROJECT_DIR$/src/Counter.java" />
+        <option value="$PROJECT_DIR$/src/BasicExamStatistics.java" />
         <option value="$PROJECT_DIR$/src/SortInteger.java" />
       </list>
     </option>
@@ -206,16 +228,7 @@
       <recent name="$PROJECT_DIR$/src/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortInteger">
-    <configuration default="false" name="Snowman" type="Applet" factoryName="Applet" temporary="true">
-      <option name="HTML_USED" value="false" />
-      <option name="MAIN_CLASS_NAME" value="Snowman" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module name="FirstProgram3" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BasicExamStatistics">
     <configuration default="false" name="VendingChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="VendingChange" />
@@ -264,6 +277,21 @@
     <configuration default="false" name="SortInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SortInteger" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FirstProgram3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicExamStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BasicExamStatistics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,19 +555,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.FirstProgram3" />
-      <item index="1" class="java.lang.String" itemvalue="Applet.Snowman" />
-      <item index="2" class="java.lang.String" itemvalue="Application.VendingChange" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CounterTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SortInteger" />
+      <item index="1" class="java.lang.String" itemvalue="Application.VendingChange" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CounterTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SortInteger" />
+      <item index="5" class="java.lang.String" itemvalue="Application.BasicExamStatistics" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortInteger" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CounterTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.VendingChange" />
-        <item index="4" class="java.lang.String" itemvalue="Applet.Snowman" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BasicExamStatistics" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SortInteger" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CounterTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.VendingChange" />
       </list>
     </recent_temporary>
   </component>
@@ -837,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475238139970</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="removed array">
+      <created>1475238167987</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1475238167987</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -881,7 +916,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed probably." />
     <MESSAGE value="Back online here we go boi!" />
     <MESSAGE value="VendingChangeImproved.java is complete." />
     <MESSAGE value="VendingChangeImproved.java is complete, now with comments, updated magic, and more!" />
@@ -906,7 +940,8 @@
     <MESSAGE value="Slight adjustments in counter. Returned a negative." />
     <MESSAGE value="Counter is completed to match correct output." />
     <MESSAGE value="SortInteger is complete. Grade.java will be submitted this afternoon." />
-    <option name="LAST_COMMIT_MESSAGE" value="SortInteger is complete. Grade.java will be submitted this afternoon." />
+    <MESSAGE value="removed array" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -919,13 +954,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/myBirthdayWizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1104,14 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="99" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/writeOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1194,14 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersonImproved.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PersonImprovedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1248">
@@ -1235,10 +1247,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersonImproved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="99" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SortInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicExamStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding />
         </state>
       </provider>
