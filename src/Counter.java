@@ -3,11 +3,9 @@ class Counter {
     void setZero() {
         zero = 0;
     }
-
     void increment() {
         zero++;
     }
-
     void decrement() {
         if (zero > 0) {
             zero--;
@@ -15,9 +13,8 @@ class Counter {
             setZero();
         }
     }
-
     void printCounter() {
-        System.out.println(zero);
+        System.out.println("Counter value = " + zero);
     }
     int countIs() {
         return zero;
