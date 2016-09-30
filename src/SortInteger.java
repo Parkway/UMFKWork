@@ -11,14 +11,14 @@ public class SortInteger {
         int num2 = scn.nextInt();
         int num3 = scn.nextInt();
 
-        int oneMinTwo = Math.min(num1, num2);
+        int oneMinTwo = Math.min(num1, num2); //Uses Math to obtain the min of the two ints.
         int twoMinThree = Math.min(num2, num3);
-        int oneMaxTwo = Math.max(num1, num2);
+        int oneMaxTwo = Math.max(num1, num2); //Uses Math to obtain the max of the two ints.
         int twoMaxThree = Math.max(num2, num3);
 
-        int lowest = Math.min(oneMinTwo, twoMinThree);
-        int middlest = Math.min(oneMaxTwo, twoMaxThree);
-        int largest = Math.max(oneMaxTwo, twoMaxThree);
+        int lowest = Math.min(oneMinTwo, twoMinThree); //Uses Math to obtain min of mins.
+        int middlest = Math.min(oneMaxTwo, twoMaxThree); //Uses Math to obtain min of maxs.
+        int largest = Math.max(oneMaxTwo, twoMaxThree); //Uses Math to obtain min of all three.
         System.out.println(lowest + " " + middlest + " " + largest);
     }
 }
