@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
+    <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="Counter is completed to match correct output.">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PersonImproved.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SortInteger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Counter.java" afterPath="$PROJECT_DIR$/src/Counter.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -65,12 +65,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SortInteger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -110,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/PersonImproved.java" />
         <option value="$PROJECT_DIR$/src/PersonImprovedTest.java" />
         <option value="$PROJECT_DIR$/src/Counter.java" />
+        <option value="$PROJECT_DIR$/src/SortInteger.java" />
       </list>
     </option>
   </component>
@@ -195,22 +209,7 @@
       <recent name="$PROJECT_DIR$/src/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterTest">
-    <configuration default="false" name="LargeSmallAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LargeSmallAverage" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FirstProgram3" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SortInteger">
     <configuration default="false" name="Snowman" type="Applet" factoryName="Applet" temporary="true">
       <option name="HTML_USED" value="false" />
       <option name="MAIN_CLASS_NAME" value="Snowman" />
@@ -253,6 +252,21 @@
     <configuration default="false" name="PersonImprovedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="PersonImprovedTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FirstProgram3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SortInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SortInteger" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -516,19 +530,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.FirstProgram3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LargeSmallAverage" />
-      <item index="2" class="java.lang.String" itemvalue="Applet.Snowman" />
-      <item index="3" class="java.lang.String" itemvalue="Application.VendingChange" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CounterTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+      <item index="1" class="java.lang.String" itemvalue="Applet.Snowman" />
+      <item index="2" class="java.lang.String" itemvalue="Application.VendingChange" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CounterTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SortInteger" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CounterTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.VendingChange" />
-        <item index="3" class="java.lang.String" itemvalue="Applet.Snowman" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LargeSmallAverage" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SortInteger" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CounterTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.VendingChange" />
+        <item index="4" class="java.lang.String" itemvalue="Applet.Snowman" />
       </list>
     </recent_temporary>
   </component>
@@ -812,12 +826,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475192569141</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Counter is completed to match correct output.">
+      <created>1475196110127</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1475196110127</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="993" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -826,7 +847,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -856,7 +877,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed UMFKWork empty file." />
     <MESSAGE value="Fixed!" />
     <MESSAGE value="Fixed probably." />
     <MESSAGE value="Back online here we go boi!" />
@@ -881,7 +901,8 @@
     <MESSAGE value="CounterTest/Counter complete." />
     <MESSAGE value="Counter method adjusted.&#10;" />
     <MESSAGE value="Slight adjustments in counter. Returned a negative." />
-    <option name="LAST_COMMIT_MESSAGE" value="Slight adjustments in counter. Returned a negative." />
+    <MESSAGE value="Counter is completed to match correct output." />
+    <option name="LAST_COMMIT_MESSAGE" value="Counter is completed to match correct output." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,14 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/myBirthdayWizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1214,6 +1227,16 @@
             <element signature="e#336#337#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
