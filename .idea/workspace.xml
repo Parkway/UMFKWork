@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PersonImprovedTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Counter.java" afterPath="$PROJECT_DIR$/src/Counter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PersonImproved.java" afterPath="$PROJECT_DIR$/src/PersonImproved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MiddleString.java" afterPath="$PROJECT_DIR$/src/MiddleString.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CounterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MiddleString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MiddleString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CounterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -116,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/VendingChangeImproved.java" />
         <option value="$PROJECT_DIR$/src/Snowman.java" />
         <option value="$PROJECT_DIR$/src/VendingChange.java" />
-        <option value="$PROJECT_DIR$/src/MiddleString.java" />
         <option value="$PROJECT_DIR$/src/LargeSmallAverage.java" />
         <option value="$PROJECT_DIR$/src/tempTest.java" />
         <option value="$PROJECT_DIR$/src/BirthdayWizard.java" />
@@ -132,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/PersonImprovedTest.java" />
         <option value="$PROJECT_DIR$/src/Counter.java" />
         <option value="$PROJECT_DIR$/src/PersonImproved.java" />
+        <option value="$PROJECT_DIR$/src/MiddleString.java" />
       </list>
     </option>
   </component>
@@ -217,22 +227,7 @@
       <recent name="$PROJECT_DIR$/src/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonImprovedTest">
-    <configuration default="false" name="VendingChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="VendingChange" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FirstProgram3" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MiddleString">
     <configuration default="false" name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CounterTest" />
@@ -281,6 +276,21 @@
     <configuration default="false" name="BasicExamStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BasicExamStatistics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FirstProgram3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MiddleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MiddleString" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -544,19 +554,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.FirstProgram3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VendingChange" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CounterTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SortInteger" />
-      <item index="5" class="java.lang.String" itemvalue="Application.BasicExamStatistics" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CounterTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SortInteger" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BasicExamStatistics" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MiddleString" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicExamStatistics" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SortInteger" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CounterTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.VendingChange" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MiddleString" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PersonImprovedTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicExamStatistics" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SortInteger" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -875,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475248937089</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="I think this is complete. Who knows.">
+      <created>1475287052765</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1475287052765</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -919,7 +936,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="VendingChangeImproved.java is complete, now with comments, updated magic, and more!" />
     <MESSAGE value="FirstProgram3 is complete." />
     <MESSAGE value="VCI is completed." />
     <MESSAGE value="Snowman is complete." />
@@ -944,7 +960,8 @@
     <MESSAGE value="removed array" />
     <MESSAGE value="SortInteger and BasicExamStatistics complete." />
     <MESSAGE value="Detailed SortInteger with more comments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Detailed SortInteger with more comments." />
+    <MESSAGE value="I think this is complete. Who knows." />
+    <option name="LAST_COMMIT_MESSAGE" value="I think this is complete. Who knows." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1209,14 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiddleString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SortInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1237,6 +1246,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersonImprovedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3077">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1263,14 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersonImprovedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3077">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1282,11 +1299,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CounterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/MiddleString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
