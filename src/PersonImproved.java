@@ -1,33 +1,55 @@
+import java.util.Scanner;
+/* I'm not exactly sure how this works. PersonImproved supplements PersonImprovedTest.
+    Holds necessary methods for PIT.j to run.
+    Lance Douglas, PersonImproved, September 30, 2016
+ */
 class PersonImproved {
-
-    void writeOutput() {
-
+    private String name;
+    private int age;
+    void writeOutput() { //Prints the name and age.
+        System.out.println("Name = " + name + "\nAge = " + age);
     }
-    void set() {
+    void readInput() { //Takes input, saves to name and age. Ensures age is more than zero.
+        Scanner scn = new Scanner(System.in);
+        System.out.println("What is the person's name?");
+        name = scn.nextLine();
 
+        System.out.println("What is the person's age?");
+        age = scn.nextInt();
+        while (age < 0)
+        {
+            System.out.println("Age cannot be negative.");
+            System.out.println("Reenter age:");
+            age = scn.nextInt();
+        }
     }
-    void isSameName() {
-
+    void setName(String newName) { //variable name reassigned to newName
+        name = newName;
     }
-    void setAge() {
-
+    void setAge(int newAge) {
+        if (newAge >= 0) {
+            age = newAge;
+        } else {
+            System.out.println("Error: Age is negative.");
+        }
     }
-    void setName() {
-
+    void set(String newName, int newAge) {
+        setName(newName);
+        setAge(newAge);
     }
-    void isOlderThan() {
-
+    String getName() {
+        return name;
     }
-    void isYoungerThan() {
-
+    int getAge() {
+        return age;
     }
-    void readInput() {
-
+    Boolean isSameName (PersonImproved PI) { //Compares names in input vs PIT.j names.
+        return(this.name.equalsIgnoreCase(PI.name));
     }
-    void getAge() {
-
+    Boolean isOlderThan (PersonImproved PI) { //Checks age to see if older.
+        return(this.getAge() > PI.getAge());
     }
-    void getName() {
-
+    Boolean isYoungerThan (PersonImproved PI) { //Checks age to see if younger.
+        return(this.getAge() < PI.getAge());
     }
 }
