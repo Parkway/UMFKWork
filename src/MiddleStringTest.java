@@ -13,8 +13,8 @@ public class MiddleStringTest {
         System.out.println("The next method uses a static array of three to accept three words, and then sorts them with Array.sort.");
         MS.forArray();
         Thread.sleep(750);
-        System.out.println("KKK");
+        System.out.println("The next method is: ");
         MS.nextMethod();
-        System.out.println("kkk");
+        System.out.println("Kthxbai");
     }
 }
