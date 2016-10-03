@@ -43,13 +43,13 @@ class PersonImproved {
     int getAge() {
         return age;
     }
-    Boolean isSameName (PersonImproved PI) { //Compares names in input vs PIT.j names.
+    boolean isSameName (PersonImproved PI) { //Compares names in input vs PIT.j names.
         return(this.name.equalsIgnoreCase(PI.name));
     }
-    Boolean isOlderThan (PersonImproved PI) { //Checks age to see if older.
+    boolean isOlderThan (PersonImproved PI) { //Checks age to see if older.
         return(this.getAge() > PI.getAge());
     }
-    Boolean isYoungerThan (PersonImproved PI) { //Checks age to see if younger.
+    boolean isYoungerThan (PersonImproved PI) { //Checks age to see if younger.
         return(this.getAge() < PI.getAge());
     }
 }
