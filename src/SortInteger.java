@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 /* This program sorts three integers from smallest to largest. I may have overcomplicated it though,
     I'm not sure how else I would do it in this simple of code.
@@ -20,5 +21,16 @@ public class SortInteger {
         int middlest = Math.min(oneMaxTwo, twoMaxThree); //Uses Math to obtain min of maxs.
         int largest = Math.max(oneMaxTwo, twoMaxThree); //Uses Math to obtain min of all three.
         System.out.println(lowest + " " + middlest + " " + largest);
+        nextTry();
+    }
+    public static void nextTry() {
+        System.out.println("Enter three whole numbers:");
+        Scanner scn = new Scanner(System.in);
+        int nums[] = new int[3];
+        for (int index = 0; index < 3; index++) {
+            nums[index] = scn.nextInt();
+        }
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
     }
 }

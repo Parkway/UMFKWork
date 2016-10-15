@@ -1,42 +1,42 @@
-import java.util.Scanner;
+import javax.swing.*;
 //The commented code at the bottom is the actual assignment. I just think the following code will be more fun.
 public class myFtoC {
     public static void main(String[] args) {
         intro();
     }
     private static void intro() {
-        print("Would you like to convert from\n"
+        String conversion = JOptionPane.showInputDialog("Would you like to convert from\n"
                 + "Fahrenheit to Celsius, or\n"
                 + "Celsius to Fahrenheit?");
-        Scanner scn = new Scanner(System.in);
-        String conversion = scn.nextLine();
         if(conversion.toLowerCase().equals("Fahrenheit to Celsius".toLowerCase())) {
-            print("Converting Fahrenheit to Celsius.");
             FtoC();
         } else if (conversion.toLowerCase().equals("Celsius to Fahrenheit".toLowerCase())) {
-            print("Converting Celsius to Fahrenheit.");
             CtoF();
         } else {
-            print("Not an option, please try again.");
+            JOptionPane.showMessageDialog(null,
+                    "Not an option, please try again.");
             intro();
         }
     }
-    private static void print(String s) {
-        System.out.println(s);
-    }
     private static void FtoC() {
-        print("Please enter temperature that you wish to convert.");
-        Scanner FC = new Scanner(System.in);
-        double FtoC = FC.nextDouble();
-        double Ctemp = (FtoC - 32) * 5/9;
-        print("In Celsius, " + FtoC + "°F is " + Ctemp + "°.");
+        String FtoC = JOptionPane.showInputDialog("Please enter temperature that you wish to convert.");
+        double FC = Double.parseDouble(FtoC);
+        JOptionPane.showMessageDialog(null,
+                "Converting Fahrenheit to Celsius.");
+        double Ctemp = (FC - 32) * 5/9;
+        JOptionPane.showMessageDialog(null,
+                "In Celsius, " + FtoC + "°F is " + Ctemp + "°.");
+        System.exit(0);
     }
     private static void CtoF() {
-        print("Please enter temperature that you wish to convert");
-        Scanner CF = new Scanner(System.in);
-        double CtoF = CF.nextDouble();
-        double Ftemp = (CtoF * 9/5) + 32;
-        print("In Fahrenheit, " + CtoF + "°C is " + Ftemp + "°.");
+        String CtoF = JOptionPane.showInputDialog("Please enter temperature that you wish to convert");
+        double CF = Double.parseDouble(CtoF);
+        JOptionPane.showMessageDialog(null,
+                "Converting Celsius to Fahrenheit.");
+        double Ftemp = (CF * 9/5) + 32;
+        JOptionPane.showMessageDialog(null,
+                "In Fahrenheit, " + CtoF + "°C is " + Ftemp + "°.");
+        System.exit(0);
     }
 
 }
