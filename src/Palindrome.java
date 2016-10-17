@@ -16,8 +16,8 @@ public class Palindrome {
 
         int length = original.length() - 1; //-1 because it
 
-        for ( int i = length; i >= 0; i-- ) { //i = length of word, while i is greater than or equal to 0, i--
-            reverse = reverse + original.charAt(i); //Original - backwards + original word, one letter at a time. charAt(int) means "what is the char at this index"
+        for ( int charLocation = length; charLocation >= 0; charLocation-- ) { //i = length of word, while i is greater than or equal to 0, i--
+            reverse = reverse + original.charAt(charLocation); //Original - backwards + original word, one letter at a time. charAt(int) means "what is the char at this index"
         }
         if (original.equals(reverse)) { //If the original word = reversed word; yes palindrome!
             print("YES, the phrase is a palindrome!");
