@@ -11,9 +11,9 @@ public class Palindrome {
         print("This program will test whatever text\n" +
                 "you enter to see if it is a palindrome.\n" +
                 "(Reads the same backwards and forwards.)\n" +
-                "\nEnter text (Just letters and blanks)");
+                "\nEnter text (Just letters and blanks with a period at the end, please)");
         String original = scn.nextLine().toLowerCase(); //String original means input word; nextLine().toLowerCase() means ignore case, so 'RACecaR' is still correct.
-
+        original = original.replace(".","");
         int length = original.length() - 1; //-1 because I get IndexOutOfBounds errors. This fixes it.
 
         for ( int charLocation = length; charLocation >= 0; charLocation-- ) { //i = length of word, while i is greater than or equal to 0, i--
