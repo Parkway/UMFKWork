@@ -1,5 +1,3 @@
-package COS-260.HMWK1;
-
 import java.util.Scanner;
 import java.util.InputMismatchException; // Exception handling
 

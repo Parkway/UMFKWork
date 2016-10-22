@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5276e68c-0ce4-4fd6-b73d-a760c4b89817" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK1/FirstProgram3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK1/MiddleString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK1/MiddleStringTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK1/Snowman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK2/LargeSmallAverage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK2/myBirthdayWizard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK2/myFtoC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK3/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK3/CounterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK3/PersonImproved.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK3/PersonImprovedTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK4/BasicExamStatistics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK4/GroceryBill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK4/PersonCh6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK4/PersonCh6Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/HMWK5/Palindrome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz1/Purchase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz1/VendingChange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz1/VendingChangeImproved.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz2/ScannerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz2/SortInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6Driver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COS260/HMWK1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COS260/HMWK1/HMWK1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COS260/HMWK1/src/FirstProgram3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COS260/HMWK1/src/MiddleString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COS260/HMWK1/src/MiddleStringTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COS260/HMWK1/src/Snowman.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/COS-260/HMWK1/FirstProgram3.java" afterPath="$PROJECT_DIR$/src/COS-260/HMWK1/FirstProgram3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/COS-260/HMWK1/MiddleStringTest.java" afterPath="$PROJECT_DIR$/src/COS-260/HMWK1/MiddleStringTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6.java" afterPath="$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6.java" />
     </list>
     <ignored path="FirstProgram3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +33,68 @@
     <favorites_list name="FirstProgram3" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SpeciesCh6Driver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpeciesCh6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstProgram3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/FirstProgram3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiddleStringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/MiddleStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiddleString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/MiddleString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Snowman.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/Snowman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,13 +151,54 @@
         <option value="$PROJECT_DIR$/src/Species.java" />
         <option value="$PROJECT_DIR$/src/SpeciesCh6Driver.java" />
         <option value="$PROJECT_DIR$/src/SpeciesCh6.java" />
+        <option value="$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6.java" />
+        <option value="$PROJECT_DIR$/src/COS-260/HMWKOne/FirstProgram3.java" />
+        <option value="$PROJECT_DIR$/src/COS/FirstProgram3.java" />
+        <option value="$PROJECT_DIR$/src/COS-260/HMWK1/MiddleStringTest.java" />
+        <option value="$PROJECT_DIR$/src/COS-260/HMWK1/FirstProgram3.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="993" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -122,7 +211,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -136,59 +225,76 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="UMFKWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UMFKWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="UMFKWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UMFKWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMFKWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMFKWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="COS-260" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UMFKWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UMFKWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COS-260" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HMWK1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="P&#9;FILE&#9;file:///home/parkway/Documents/Java/IdeaProjects/UMFKWork/src/Purchase.java" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="COS-260.HMWK1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/" />
     </key>
@@ -550,13 +656,6 @@
       <option name="presentableId" value="Default" />
       <updated>1473125986636</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added comments to describe code in FP3, formalized variable names.">
-      <created>1473343341272</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1473343341273</updated>
-    </task>
     <task id="LOCAL-00006" summary="Commenting and describing code in VC.">
       <created>1473344839243</created>
       <option name="number" value="00006" />
@@ -893,12 +992,19 @@
       <option name="project" value="LOCAL" />
       <updated>1477146203239</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Continuing to add organization. Down to class.">
+      <created>1477146390222</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1477146390222</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="993" extended-state="6" />
-    <editor active="false" />
+    <frame x="1920" y="24" width="1920" height="993" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -909,7 +1015,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2144385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -962,7 +1068,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my***.java because points." />
     <MESSAGE value="Added a voluntary Random Number Generator." />
     <MESSAGE value="Fixed up BirthdayWizard, added a RandomNumberGenerator." />
     <MESSAGE value="Added QuizOne.zip to completedAssignments." />
@@ -987,7 +1092,8 @@
     <MESSAGE value="Commented more." />
     <MESSAGE value="Added support for ignoring periods.&#10;" />
     <MESSAGE value="Massively organized file structure. Will be continuing to do so, but didn't feel like doing it all right now. It will look better later.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Massively organized file structure. Will be continuing to do so, but didn't feel like doing it all right now. It will look better later.&#10;" />
+    <MESSAGE value="Continuing to add organization. Down to class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Continuing to add organization. Down to class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1000,13 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java" />
-    <entry file="file://$PROJECT_DIR$/src/randomNumberGen.java" />
-    <entry file="file://$PROJECT_DIR$/src/LargeSmallAverage.java" />
-    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java" />
-    <entry file="file://$PROJECT_DIR$/src/LargeSmallAverage.java" />
-    <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java" />
-    <entry file="file://$PROJECT_DIR$/src/VendingChange.java" />
     <entry file="file://$PROJECT_DIR$/src/Snowman.java" />
     <entry file="file://$PROJECT_DIR$/src/FirstProgram3.java" />
     <entry file="file://$PROJECT_DIR$/src/VendingChange.java" />
@@ -1063,6 +1162,55 @@
     <entry file="file://$PROJECT_DIR$/src/SpeciesCh6.java" />
     <entry file="file://$PROJECT_DIR$/src/SpeciesCh6Driver.java" />
     <entry file="file://$PROJECT_DIR$/src/SpeciesCh6.java" />
+    <entry file="file://$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COS-260/Quiz3/SpeciesCh6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COS/FirstProgram3.java" />
+    <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/FirstProgram3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/MiddleStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/MiddleString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COS-260/HMWK1/Snowman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

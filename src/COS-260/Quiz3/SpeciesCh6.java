@@ -1,3 +1,5 @@
+package Q3;
+
 import java.util.Scanner;
 /**
  Class for data on endangered species.
