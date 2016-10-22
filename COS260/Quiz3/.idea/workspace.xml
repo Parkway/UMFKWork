@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2edf2f7-5ac6-476a-8fab-2a0ff457d136" name="Default" comment="Added other files relevant to Quiz3">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GradesGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GradesGraphTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TruncatedBankAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TruncatedDollarFormat.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK1/FirstProgram3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK1/MiddleString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK1/MiddleStringTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK1/Snowman.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK2/LargeSmallAverage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK2/myBirthdayWizard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK2/myFtoC.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK3/Counter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK3/CounterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK3/PersonImproved.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK3/PersonImprovedTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK4/BasicExamStatistics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK4/GroceryBill.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK4/PersonCh6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK4/PersonCh6Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/HMWK5/Palindrome.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz1/Purchase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz1/VendingChange.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz1/VendingChangeImproved.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz2/ScannerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz2/SortInteger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz3/SpeciesCh6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/COS-260/Quiz3/SpeciesCh6Driver.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="b2edf2f7-5ac6-476a-8fab-2a0ff457d136" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Quiz3.iws" />
@@ -493,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477153267766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added other files relevant to Quiz3">
+      <created>1477155420357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477155420357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -502,7 +479,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
