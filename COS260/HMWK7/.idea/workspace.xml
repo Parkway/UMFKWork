@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0940baba-56b5-43b6-a3ab-edec5c2a55b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SortedIntegerNoDuplicates.java" afterPath="$PROJECT_DIR$/src/SortedIntegerNoDuplicates.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/numbers.txt" afterPath="$PROJECT_DIR$/src/numbers.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Quiz3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Quiz3/.idea/workspace.xml" />
     </list>
@@ -80,6 +79,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="993" />
@@ -411,12 +411,19 @@
       <option name="project" value="LOCAL" />
       <updated>1481081818436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="iS NOT BROKEN">
+      <created>1481083838170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1481083838170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="993" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="24" width="1920" height="993" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -457,7 +464,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting Homework 7. This is rough." />
     <MESSAGE value="Why is broken??" />
-    <option name="LAST_COMMIT_MESSAGE" value="Why is broken??" />
+    <MESSAGE value="iS NOT BROKEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="iS NOT BROKEN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
