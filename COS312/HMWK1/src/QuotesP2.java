@@ -11,13 +11,13 @@ class Window extends JFrame {
             "Style is a reflection of your attitude and your personality.","They can be silly, they can be political, whatever.",
             "An investment in knowledge pays the best interest.","I just spent way too much money. Why did I do that?"};
 
-    JTextArea lbl = new JTextArea(50,30);
+    JTextArea lbl = new JTextArea(30,30);
 
     JComboBox Spinner = new JComboBox(author);
 
     private Window() {
         super("Quotes");
-        setSize(500, 250);
+        setSize(400, 250);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         add(frame);
         setVisible(true);
@@ -36,6 +36,7 @@ class Window extends JFrame {
         lbl.setBackground(UIManager.getColor("Label.background"));
         lbl.setFont(UIManager.getFont("Label.font"));
         lbl.setBorder(UIManager.getBorder("Label.border"));
+        lbl.setFont(new Font("Times New Roman", Font.BOLD, 16));
 
         Spinner.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
