@@ -27,6 +27,7 @@ class Window extends JFrame {
         Spinner.setSelectedIndex(0);
         frame.add(Spinner, BorderLayout.NORTH);
         frame.add(lbl, BorderLayout.SOUTH);
+        frame.add(lbl, BorderLayout.CENTER);
 
         lbl.setWrapStyleWord(true);
         lbl.setLineWrap(true);
@@ -36,7 +37,7 @@ class Window extends JFrame {
         lbl.setBackground(UIManager.getColor("Label.background"));
         lbl.setFont(UIManager.getFont("Label.font"));
         lbl.setBorder(UIManager.getBorder("Label.border"));
-        lbl.setFont(new Font("Times New Roman", Font.BOLD, 16));
+        lbl.setFont(new Font("Ubuntu", Font.PLAIN, 16));
 
         Spinner.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
