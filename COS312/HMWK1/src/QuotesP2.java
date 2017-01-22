@@ -5,7 +5,10 @@
     When each author within the JCB is selected, it displays the corresponding quote.
     Also, it is colored and animated. I am really proud of this, can I have extra credit or something?
     The background is a pastel teal with a crisp white Roboto font at the foreground 
-                                - Hipster web dev who uses a .io site. 
+                                - Hipster web dev who uses a .io site.
+    Anyways, I kinda took some initiative and did this my own way,
+    but I am really proud of all of it, and in my opinion I stayed within
+    the guidelines to the project.
                                 
     Lance Douglas, HMWK1 Quotation Part 2, 1/29/2017
 
@@ -20,7 +23,7 @@ class QuotesP2 extends JFrame { //Extends JFrame stuff.
 
     String[] author = {"Select Choice","Nelson Mandela","Shawn Ashmore","John Richardson","Ben Franklin","Lance Douglas"}; //Author
     String[] quotes = {"","Education is the most powerful weapon which you can use to change the world.",
-            "Style is a reflection of your attitude and your personality.","They can be silly, they can be political, whatever.", //Quote; corresponds to author.
+            "Style is a reflection of your attitude and your personality.","The quotes can be silly, they can be political, whatever.", //Quote; corresponds to author.
             "An investment in knowledge pays the best interest.","I just spent way too much money. Why did I do that?"};
 
     JTextArea tA = new JTextArea(30,20); //Set text area.
