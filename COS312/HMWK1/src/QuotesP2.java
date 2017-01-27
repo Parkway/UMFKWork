@@ -11,7 +11,6 @@
     the guidelines to the project.
                                 
     Lance Douglas, HMWK1 Quotation Part 2, 1/29/2017
-
 */
 import javax.swing.*; //For GUI
 import java.awt.*; //For JFrame
