@@ -26,7 +26,7 @@ class QuotesP2 extends JFrame { //Extends JFrame stuff.
             "Style is a reflection of your attitude and your personality.","The quotes can be silly, they can be political, whatever.", //Quote; corresponds to author.
             "An investment in knowledge pays the best interest.","I just spent way too much money. Why did I do that?"};
 
-    JTextArea tA = new JTextArea(30,20); //Set text area.
+    JTextArea tA = new JTextArea(30,15); //Set text area.
     /* I used a text area because I couldn't word wrap a generic JLabel.
         I made it non editable, and set the colors to match. Stealth.
      */
@@ -34,7 +34,7 @@ class QuotesP2 extends JFrame { //Extends JFrame stuff.
     JComboBox Spinner = new JComboBox(author); //Made a spinner / JCB / whatever.
     // Intellij is mad at me though. Unchecked call? I dunno. Works fine.
 
-    private QuotesP2() { //Method for JFRame
+    private QuotesP2() { //Method for JFrame
         super("Quotes"); //Title of box.
         setSize(400, 250); //Size of box in px.
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); //Destroy box on close.
@@ -59,7 +59,8 @@ class QuotesP2 extends JFrame { //Extends JFrame stuff.
         tA.setFocusable(false); //Can't highlight the text. Why? Practice.
         tA.setBackground(teal); //Background color.
         tA.setForeground(white); //Text color.
-        tA.setFont(new Font("Roboto", Font.BOLD, 16)); //Just experimenting with constraints.
+        tA.setFont(new Font("Roboto", Font.BOLD, 20)); //Just experimenting with constraints.
+
 
         //Instructions for Spinner.
 
