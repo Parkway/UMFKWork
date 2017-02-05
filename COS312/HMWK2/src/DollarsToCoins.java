@@ -39,7 +39,7 @@ public class DollarsToCoins {
         amount = amount % 5;
         pennies = amount;
 
-        //Just for fun, pretend the computer is doing something.
+        //Just for fun, pretend the computer is doing something. - Only because this isn't part of the homework.
 
         JOptionPane.showMessageDialog(null, "Mathing...");
 
