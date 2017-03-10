@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.sql.*;
+import java.sql.*; //So I can do sql statements and whatnot.
 import javax.swing.*;
 /*
     This program is designed to insert all data into a database for Lance International Airport.
@@ -124,7 +124,7 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         frame.add(pnlAns);
         frame.add(pnlNavigate);
 
-        frame.pack();
+        frame.setSize(500,400);
         frame.setVisible(true);
     }
 
@@ -187,14 +187,14 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
                 Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
                 con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
                 String sql = "Update Flights " +
-                        "Set Destination='" + DEStxt.getText() +
+                        "Set Departure='" + DEPtxt.getText() +
                         "',DayOfWeek='" + DOWtxt.getText() +
-                        "',Departure='" + DEPtxt.getText() +
                         "',Arrival='" + ARRtxt.getText() +
                         "',Price='" + PRItxt.getText() +
 
-                        "' Where Origin='" + ORItxt.getText() +
-                        "' Where Destination='" + DEStxt.getText() + "'";
+                        "'Where Origin='" + ORItxt.getText() +
+                        "'and Destination='" + DEStxt.getText() + "'";
+
                 Statement statement = con.createStatement();
                 statement.execute(sql);
                 createMessageBox("Flight " + ORItxt.getText() + " to " + DEStxt.getText() + " updated successfully");
@@ -215,14 +215,14 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
                 Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
                 con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
                 String sql = "delete from Flights " +
-                        " Where Origin = '" + ORItxt.getText() + "'";
-                /*
-                        "'Where Destination='" + DEStxt.getText() +
-                        "'Where DayOfWeek='" + DOWtxt.getText() +
-                        "'Where Departure='" + DEPtxt.getText() +
-                        "'Where Arrival='" + ARRtxt.getText() +
-                        "'Where Price='" + PRItxt.getText() +
-                 */
+                        " Where Origin='" + ORItxt.getText() +
+                        "'and Destination='" + DEStxt.getText() +
+                        "'and DayOfWeek='" + DOWtxt.getText() +
+                        "'and Departure='" + DEPtxt.getText() +
+                        "'and Arrival='" + ARRtxt.getText() +
+                        "'and Price='" + PRItxt.getText() + "'";
+
+
                 Statement statement = con.createStatement();
                 statement.execute(sql);
                 createMessageBox("Record of flight " + ORItxt.getText() + " to " + DEStxt.getText() + " deleted successfully");
@@ -268,7 +268,6 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         catch(Exception e) {
             e.printStackTrace();
         }
-
     }
 
     private void createMessageBox(String msg) {
