@@ -147,7 +147,7 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
             break;
             case "Clear": clearControls();
             break;
-            default:JOptionPane.showMessageDialog(null,"Shit is seriously broken.");
+            default:JOptionPane.showMessageDialog(null,"Shit is seriously broken."); //This should literally never happen. BUT, switch without default is horrendous.
         }
     }
 
@@ -155,17 +155,23 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         //This method inserts flight data into the database.
         Connection con;
         try {
-            Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-            con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
+            if (ORItxt.getText().equals("") && DEStxt.getText().equals("")) {
+                JOptionPane.showMessageDialog(null,
+                        "Flight Information is empty. All information must be completed.");
+                //If they don't at the very least enter flight origin and destination info, make them enter it all.
+            } else {
+                Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+                con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
 
-            String sql = "Insert Into Flights (Origin,Destination,DayOfWeek,Departure,Arrival,Price)" +
-                    "Values ('"+ORItxt.getText()+"','"+DEStxt.getText()
-                    +"','"+DOWtxt.getText()+"','"+DEPtxt.getText()+"','"
-                    +ARRtxt.getText()+"','"+PRItxt.getText()+"')";
-            Statement statement = con.createStatement();
-            statement.execute(sql);
-            createMessageBox("Inserted Successfully");
-            clearControls();
+                String sql = "Insert Into Flights (Origin,Destination,DayOfWeek,Departure,Arrival,Price)" +
+                        "Values ('" + ORItxt.getText() + "','" + DEStxt.getText()
+                        + "','" + DOWtxt.getText() + "','" + DEPtxt.getText() + "','"
+                        + ARRtxt.getText() + "','" + PRItxt.getText() + "')";
+                Statement statement = con.createStatement();
+                statement.execute(sql);
+                createMessageBox("Flight " + ORItxt.getText()+ " to " + DEStxt.getText() + " inserted successfully");
+                clearControls();
+            }
         }
         catch(Exception e) {
             createMessageBox(e.getMessage());
@@ -174,18 +180,26 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
     private void updateData() {
         Connection con;
         try {
-            Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-            con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
-            String sql = "Update Flights Set Destination='"+DEStxt.getText()+"'," +
-                    "DayOfWeek='"+DOWtxt.getText()+
-                    "',Departure='"+ DEPtxt.getText()+
-                    "',Arrival='"+ARRtxt.getText()+
-                    "',Price='"+PRItxt.getText()+
-                    "' Where Origin='"+ORItxt.getText()+"'";
-            Statement statement = con.createStatement();
-            statement.execute(sql);
-            createMessageBox("Updated Successfully");
-            clearControls();
+            if (ORItxt.getText().equals("") && DEStxt.getText().equals("")) {
+                JOptionPane.showMessageDialog(null,
+                        "Flight Information is empty. All information must be completed.");
+            } else {
+                Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+                con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
+                String sql = "Update Flights " +
+                        "Set Destination='" + DEStxt.getText() +
+                        "',DayOfWeek='" + DOWtxt.getText() +
+                        "',Departure='" + DEPtxt.getText() +
+                        "',Arrival='" + ARRtxt.getText() +
+                        "',Price='" + PRItxt.getText() +
+
+                        "' Where Origin='" + ORItxt.getText() +
+                        "' Where Destination='" + DEStxt.getText() + "'";
+                Statement statement = con.createStatement();
+                statement.execute(sql);
+                createMessageBox("Flight " + ORItxt.getText() + " to " + DEStxt.getText() + " updated successfully");
+                clearControls();
+            }
         }
         catch(Exception e) {
             createMessageBox(e.getMessage());
@@ -194,13 +208,26 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
     private void deleteData() {
         Connection con;
         try {
-            Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-            con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
-            String sql = "delete from Flights where Origin = '"+ORItxt.getText()+"'";
-            Statement statement = con.createStatement();
-            statement.execute(sql);
-            createMessageBox("Record of flight "+ORItxt.getText()+" to " + DEStxt.getText()+ " deleted successfully");
-            clearControls();
+            if (ORItxt.getText().equals("") && DEStxt.getText().equals("")) {
+                JOptionPane.showMessageDialog(null,
+                        "Flight Information is empty. All information must be completed.");
+            } else {
+                Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+                con = DriverManager.getConnection("jdbc:ucanaccess://flights.accdb");
+                String sql = "delete from Flights " +
+                        " Where Origin = '" + ORItxt.getText() + "'";
+                /*
+                        "'Where Destination='" + DEStxt.getText() +
+                        "'Where DayOfWeek='" + DOWtxt.getText() +
+                        "'Where Departure='" + DEPtxt.getText() +
+                        "'Where Arrival='" + ARRtxt.getText() +
+                        "'Where Price='" + PRItxt.getText() +
+                 */
+                Statement statement = con.createStatement();
+                statement.execute(sql);
+                createMessageBox("Record of flight " + ORItxt.getText() + " to " + DEStxt.getText() + " deleted successfully");
+                clearControls();
+            }
         }
         catch(Exception e) {
             createMessageBox(e.getMessage());
