@@ -47,25 +47,27 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         PRItxt = new JTextField();
 
         JPanel pnlInput = new JPanel(new GridLayout(6,2));
-        pnlInput.setBackground(Color.GREEN); //Set input panel color to green.
+        pnlInput.setBackground(Color.WHITE); //Set input panel color to white.
 
         //Adds elements to pnlInput
-        pnlInput.add(ORIlbl); pnlInput.add(ORItxt); //Origin
-        pnlInput.add(DESlbl); pnlInput.add(DEStxt); //Destination
-        pnlInput.add(DOWlbl); pnlInput.add(DOWtxt); //DayOfWeek
-        pnlInput.add(DEPlbl); pnlInput.add(DEPtxt); //Departure
-        pnlInput.add(ARRlbl); pnlInput.add(ARRtxt); //Arrival
-        pnlInput.add(PRIlbl); pnlInput.add(PRItxt); //Price
+        pnlInput.add(ORIlbl); pnlInput.add(ORItxt); ORIlbl.setFont(new Font("Ubuntu",Font.BOLD, 20));//Origin
+        pnlInput.add(DESlbl); pnlInput.add(DEStxt); DESlbl.setFont(new Font("Ubuntu",Font.BOLD, 20));//Destination
+        pnlInput.add(DOWlbl); pnlInput.add(DOWtxt); DOWlbl.setFont(new Font("Ubuntu",Font.BOLD, 20));//DayOfWeek
+        pnlInput.add(DEPlbl); pnlInput.add(DEPtxt); DEPlbl.setFont(new Font("Ubuntu",Font.BOLD, 20));//Departure
+        pnlInput.add(ARRlbl); pnlInput.add(ARRtxt); ARRlbl.setFont(new Font("Ubuntu",Font.BOLD, 20));//Arrival
+        pnlInput.add(PRIlbl); pnlInput.add(PRItxt); PRIlbl.setFont(new Font("Ubuntu",Font.BOLD, 20));//Price
 
         btnInsert = new JButton("Insert");
         btnInsert.addActionListener(this);
-        btnInsert.setBackground(Color.WHITE);
+        btnInsert.setBackground(Color.GREEN);
         btnUpdate = new JButton("Update");
         btnUpdate.addActionListener(this);
-        btnUpdate.setBackground(Color.WHITE);
+        btnUpdate.setBackground(Color.BLUE);
+        btnUpdate.setForeground(Color.WHITE);;
         btnDelete = new JButton("Delete");
         btnDelete.addActionListener(this);
-        btnDelete.setBackground(Color.WHITE);
+        btnDelete.setBackground(Color.RED);
+        btnDelete.setForeground(Color.WHITE);
         btnClear = new JButton("Clear");
         btnClear.addActionListener(this);
         btnClear.setBackground(Color.WHITE);
@@ -80,15 +82,15 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         pnlButton.add(btnClear);
 
         JPanel pnlAns = new JPanel(new GridLayout(3,2));
-        pnlAns.setBackground(Color.GREEN);
+        pnlAns.setBackground(Color.WHITE);
 
         //For the lower half of the GUI, lets you view other scheduled flights.
-        ORIlbl = new JLabel("Origin:");
-        DESlbl = new JLabel("Destination:");
-        DOWlbl = new JLabel("Day of Week:");
-        DEPlbl = new JLabel("Departure:");
-        ARRlbl = new JLabel("Arrival:");
-        PRIlbl = new JLabel("Price:");
+        ORIlbl = new JLabel("Origin:"); ORIlbl.setFont(new Font("Ubuntu",Font.BOLD, 15));
+        DESlbl = new JLabel("Destination:"); DESlbl.setFont(new Font("Ubuntu",Font.BOLD, 15));
+        DOWlbl = new JLabel("Day of Week:"); DOWlbl.setFont(new Font("Ubuntu",Font.BOLD, 15));
+        DEPlbl = new JLabel("Departure:"); DEPlbl.setFont(new Font("Ubuntu",Font.BOLD, 15));
+        ARRlbl = new JLabel("Arrival:"); ARRlbl.setFont(new Font("Ubuntu",Font.BOLD, 15));
+        PRIlbl = new JLabel("Price:"); PRIlbl.setFont(new Font("Ubuntu",Font.BOLD, 15));
 
         ORIlblVal = new JLabel("");
         DESlblVal = new JLabel("");
@@ -105,11 +107,13 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         pnlAns.add(PRIlbl); pnlAns.add(PRIlblVal); //Price Val
         
         btnPrev = new JButton(" Previous ");
+        btnPrev.setFont(new Font("Ubuntu",Font.BOLD,20));
         btnPrev.setActionCommand("Prev");
         btnPrev.addActionListener(this);
         btnPrev.setBackground(Color.white);
 
         btnNext = new JButton(" Next ");
+        btnNext.setFont(new Font("Ubuntu",Font.BOLD,20));
         btnNext.setActionCommand("Next");
         btnNext.addActionListener(this);
         btnNext.setBackground(Color.WHITE);
@@ -125,6 +129,7 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         frame.add(pnlNavigate);
 
         frame.setSize(500,400);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 
@@ -135,19 +140,14 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         //This program performs each method based on what button is clicked.
 
         switch (cmd) {
-            case "Insert": insertData();
-            break;
-            case "Update": updateData();
-            break;
-            case "Delete": deleteData();
-            break;
-            case "Prev": previous();
-            break;
-            case "Next": next();
-            break;
-            case "Clear": clearControls();
-            break;
-            default:JOptionPane.showMessageDialog(null,"Shit is seriously broken."); //This should literally never happen. BUT, switch without default is horrendous.
+            case "Insert": insertData();   break;
+            case "Update": updateData();   break;
+            case "Delete": deleteData();   break;
+            case "Prev": previous();       break;
+            case "Next": next();           break;
+            case "Clear": clearControls(); break;
+            default:JOptionPane.showMessageDialog(null,
+                    "Shit is seriously broken."); //This should literally never happen. BUT, switch without default is horrendous.
         }
     }
 
