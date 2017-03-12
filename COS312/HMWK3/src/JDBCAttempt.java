@@ -2,13 +2,14 @@ import java.awt.*;
 import java.awt.event.*;
 import java.sql.*; //So I can do sql statements and whatnot.
 import javax.swing.*;
-/*
+/**
     This program is designed to insert all data into a database for Lance International Airport.
-    It allows users to schedule a flight from wherever to wherever else. 10/10.
+    It allows users to schedule a flight from wherever to wherever else, for
+    ridiculously low prices, because I have no idea how much tickets cost! 10/10.
 
-    Lance Douglas, dbGUI.java, March 12th, 2017
+    Lance Douglas, JDBCAttempt.java, March 12th, 2017
  */
-public class dbGUI implements ActionListener { //Adds actionListener natively.
+public class JDBCAttempt implements ActionListener { //Adds actionListener natively - required for addActionListner(this)
 
     //Declare all the variables in advance to make code prettier.
 
@@ -19,7 +20,7 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
     private ResultSet rs;
 
     public static void main(String[] args) {
-        dbGUI obj = new dbGUI(); //This allows me to bypass "Can't have non static stuff in static method" nonsense.
+        JDBCAttempt obj = new JDBCAttempt(); //This allows me to bypass "Can't have non static stuff in static method" nonsense.
         obj.createUI();
     }
     private void createUI()
@@ -105,7 +106,7 @@ public class dbGUI implements ActionListener { //Adds actionListener natively.
         pnlAns.add(DEPlbl); pnlAns.add(DEPlblVal); //Departure Time Val
         pnlAns.add(ARRlbl); pnlAns.add(ARRlblVal); //Arrival Time Val
         pnlAns.add(PRIlbl); pnlAns.add(PRIlblVal); //Price Val
-        
+
         btnPrev = new JButton(" Previous ");
         btnPrev.setFont(new Font("Ubuntu",Font.BOLD,20));
         btnPrev.setActionCommand("Prev");
