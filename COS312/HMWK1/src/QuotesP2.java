@@ -38,7 +38,6 @@ class QuotesP2 extends JFrame { //Extends JFrame stuff.
         setSize(400, 250); //Size of box in px.
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); //Destroy box on close.
         add(frame); //Adds frame to box
-        setVisible(true); //Can't be invisible, obviously.
         Color teal = new Color(0,150,136); //Almost my favorite color!
         Color white = new Color(255,255,255); //Color.white is just too mainstream.
 
