@@ -1,0 +1,1 @@
+John, I had a lot of fun making this. It took a lot of time coming up with cool features to add to it, but I think it was worth it. I added so much stuff: Word wrapping for longer messages, an overwrite confirmation, a .txt appender, and probably other stuff I can't remember right now. Let me know what you think! 
