@@ -2,61 +2,66 @@ import javax.swing.*;
 
 public class RecursionDemo {
     public static void main(String[] args) {
+        runner();
+    }
+    private static void runner() {
         try {
-            String numStr = JOptionPane.showInputDialog("Enter a positive integer:");
+            String numStr = JOptionPane.showInputDialog(null,
+                    "Enter a positive integer that is less than ten: ",
+                    "Title", JOptionPane.INFORMATION_MESSAGE);
+            if (numStr.equals(null)) {
+                System.exit(33);
+            }
             int number = Integer.parseInt(numStr);
 
-            if (number <= 0) {
+            if (number <= 0 || number >= 10) {
                 JOptionPane.showMessageDialog(null,
-                        "Number can't be less than one, try again.");
-                main(args);
+                        "Number must be between 1-9, try again.");
+                runner();
             }
 
             JOptionPane.showMessageDialog(null,
-                    "The digits in that number are:");
-            displayAsWords(number);
+                    "The digit in this number is: " + getWordFromDigit(number) + "\n");
 
+            number += 10;
             JOptionPane.showMessageDialog(null,
                     "If you add ten to that number,\n" +
-                            "the digits in the new number are:");
-            number = number + 10;
-            displayAsWords(number);
-
-            JOptionPane.showMessageDialog(null,
-                    "Good bye.");
+                            "the digits in the new number are:\n " +
+                            getWordFromDigit(number) + " " + getWordFromDigit(number - 10));
+            again();
         } catch (NumberFormatException NFE) {
             JOptionPane.showMessageDialog(null,
-                    "Please enter a number, not text.");
-            main(args);
+                    "Please enter an integer, nothing else.");
+            runner();
+        } catch (NullPointerException NPE) {
+            System.exit(22);
         }
     }
 
-    /**
-     Precondition: number >= 0
-     Displays the digits in number as words.
-     */
-    public static void displayAsWords(int number)
-    {
-        if (number < 10)
+    private static void again() {
+        int again = JOptionPane.showConfirmDialog(null,
+                "Would you like to go again?","Again",JOptionPane.YES_NO_OPTION);
+        if (again == JOptionPane.YES_OPTION) {
+            runner();
+        } else {
             JOptionPane.showMessageDialog(null,
-                    getWordFromDigit(number));
-        else //number has two or more digits
-        {
-            displayAsWords(number / 10);
-            JOptionPane.showMessageDialog(null,
-                    getWordFromDigit(number % 10) + " ");
+                    "Good bye.");
+            System.exit(11);
         }
     }
-
     /**
      Precondition: 0 <= digit <= 9
      Returns the word for the argument digit.
      */
-    private static String getWordFromDigit(int digit)
-    {
+    private  static String getWordFromDigit(int digit) {
         String result = null;
-        switch (digit)
-        {
+
+        if (digit >= 10) {
+            digit /= 10;
+            getWordFromDigit(digit % 10);
+        }
+
+        switch (digit) {
             case 0: result = "zero";  break;
             case 1: result = "one";   break;
             case 2: result = "two";   break;
