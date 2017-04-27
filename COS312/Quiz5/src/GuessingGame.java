@@ -176,6 +176,7 @@ public class GuessingGame {
             System.exit(1);
         }
     }
+
     /*  This is just some fun stuff to be grammatically correct.
         Nothing else.
      */
