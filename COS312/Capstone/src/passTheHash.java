@@ -3,7 +3,6 @@ import java.awt.*;
 import java.math.BigInteger;
 import java.security.*;
 import java.util.Random;
-
 /************************************************************************************
  * Created by Lance Douglas on 2/10/2017 - Capstone Project                         *
  *                                                                                  *
@@ -31,7 +30,7 @@ public class passTheHash {
 
         starter();
     }
-    private static void starter(){
+    private static void starter() {
         try {
             UIManager.put("OptionPane.okButtonText", "Hash");
             String ogString = JOptionPane.showInputDialog(null,
@@ -43,7 +42,6 @@ public class passTheHash {
                         "String can't be blank, try again!");
                 starter();
             }
-
             UIManager.put("OptionPane.okButtonText", "OK");
             encrypt(ogString);
         } catch (NullPointerException NPE) {
@@ -81,9 +79,10 @@ public class passTheHash {
             String totalHash = new BigInteger(1, mTotal.digest()).toString(24);
 
 
-            int subString =  (int) (Math.random() * (98 - 32)) + 32;
-            String totalHash32 = totalHash.substring(subString-32, subString);
-            String totalHash16 = totalHash.substring(subString-16,subString);
+            int subString32 =  (int) (Math.random() * (96 - 32)) + 32;
+            int subString16 = (int) (Math.random() * (112 - 16)) + 16;
+            String totalHash32 = totalHash.substring(subString32-32, subString32);
+            String totalHash16 = totalHash.substring(subString16-16,subString16);
 
             JOptionPane.showMessageDialog(null,
                 "When converted to these " +
@@ -100,9 +99,6 @@ public class passTheHash {
 
             System.out.println(totalHash32);
             System.out.println(totalHash16 + "\n");
-
-
-
         } catch (NoSuchAlgorithmException NSAE) {
             System.exit(22);
         } catch (NullPointerException NPE) {
@@ -112,7 +108,6 @@ public class passTheHash {
         }
         again();
     }
-    
     private static void again() {
         int repeat = JOptionPane.showConfirmDialog(null,
                 "Would you like to convert another string?", "Encrypt Another?",
