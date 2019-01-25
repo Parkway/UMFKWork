@@ -1,11 +1,11 @@
 import java.util.Scanner;
 import java.util.InputMismatchException; // Exception handling
 
-/* File name: FirstProgram3.java
-    This program takes three integers from the user and adds them together, and returns the sum as output.
-    For example, if I enter 5, 10, and 5, the program returns 20.
-    Lance Douglas, FirstProgram3, September 7, 2016.
-*/
+/**
+ * Lance Douglas, FirstProgram3, September 7, 2016.
+ * This program takes three integers from the user and adds them together, and returns the sum as output.
+ * For example, if I enter 5, 10, and 5, the program returns 20.
+ */
 
 public class FirstProgram3 { //Identifies class name
     public static void main(String []args) { // Method name

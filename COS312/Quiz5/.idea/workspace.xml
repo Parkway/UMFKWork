@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1446d138-a986-4821-831f-f41e4e3c6017" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Capstone/src/AES256.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Capstone/src/SecureRandomStuff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RD2.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Capstone/src/cryptoEngine.java" afterPath="$PROJECT_DIR$/../Capstone/src/passTheHash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GuessingGame.java" afterPath="$PROJECT_DIR$/src/GuessingGame.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HMWK5/src/threeChoice.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Capstone/src/passTheHash.java" afterPath="$PROJECT_DIR$/../Capstone/src/passTheHash.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +35,7 @@
       <file leaf-file-name="RecursionDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecursionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="153">
               <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="e#95#96#0" expanded="true" />
@@ -53,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/GuessingGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="41" />
+              <caret line="43" column="41" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -161,7 +158,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -659,6 +655,7 @@
       <updated>1492810185814</updated>
       <workItem from="1492810197377" duration="22922000" />
       <workItem from="1493308539933" duration="12000" />
+      <workItem from="1494214824841" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Changelog:&#10;Version 1.0 is live! Lots of 2fancy stuff going on. Attempts, rounds, exception handlers.">
       <created>1492896991947</created>
@@ -678,7 +675,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22934000" />
+    <option name="totallyTimeSpent" value="22951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,7 +704,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026852" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25402793" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -779,6 +776,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/RecursionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuessingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RecursionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
@@ -804,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/src/RD2.java" />
     <entry file="file://$PROJECT_DIR$/src/RecursionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="153">
           <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="e#95#96#0" expanded="true" />
@@ -816,7 +834,7 @@
     <entry file="file://$PROJECT_DIR$/src/GuessingGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="41" />
+          <caret line="43" column="41" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

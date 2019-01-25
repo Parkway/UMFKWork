@@ -3,10 +3,11 @@ import java.awt.*;
 import java.math.BigInteger;
 import java.security.*;
 import java.util.Random;
+
 /************************************************************************************
  * Created by Lance Douglas on 2/10/2017 - Capstone Project                         *
  *                                                                                  *
- * This class is meant to be a rudimentary method of creating a relatively secure   *
+ * This program is meant to be a rudimentary method of creating a relatively secure *
  * password for the end user. Each password generated is guaranteed to last at      *
  * least a long ass time before being cracked by a password breaker.                *
  *                                                                                  *
@@ -19,16 +20,19 @@ import java.util.Random;
 
 public class passTheHash {
     public static void main(String[] args) throws Exception {
-        UIManager.put("OptionPane.messageFont", new Font(
-                "Hack", Font.PLAIN, 14));
+        try {
+            UIManager.put("OptionPane.messageFont", new Font(
+                    "Hack", Font.PLAIN, 14));
 
-        JOptionPane.showMessageDialog(null,
-                "Hi there!\n" +
-                        "This program is designed to take a String" +
-                        "\nand return several different hashes of it,\n" +
-                        "including two unique strings to be used as passwords.");
-
-        starter();
+            JOptionPane.showMessageDialog(null,
+                    "Hi there!\n" +
+                            "This program is designed to take a String" +
+                            "\nand return several different hashes of it,\n" +
+                            "including two unique strings to be used as passwords.");
+            starter();
+        } catch (NullPointerException NPE) {
+            System.exit(0);
+        }
     }
     private static void starter() {
         try {
@@ -53,10 +57,13 @@ public class passTheHash {
         try {
             Random random = new Random();
             int number = random.nextInt(10);
+            int subString32 =  (int) (Math.random() * (96 - 32)) + 32;
+            int subString16 = (int) (Math.random() * (112 - 16)) + 16;
 
             MessageDigest m1 = MessageDigest.getInstance("MD5");
             m1.update(ogString.getBytes(), 0, ogString.length());
             String md5 = new BigInteger (1, m1.digest()).toString(32);
+            System.out.println(md5);
 
             MessageDigest m2 = MessageDigest.getInstance("SHA-512");
             m2.update(ogString.getBytes(), 0, ogString.length());
@@ -79,8 +86,7 @@ public class passTheHash {
             String totalHash = new BigInteger(1, mTotal.digest()).toString(24);
 
 
-            int subString32 =  (int) (Math.random() * (96 - 32)) + 32;
-            int subString16 = (int) (Math.random() * (112 - 16)) + 16;
+
             String totalHash32 = totalHash.substring(subString32-32, subString32);
             String totalHash16 = totalHash.substring(subString16-16,subString16);
 
